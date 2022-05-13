@@ -1,0 +1,2 @@
+#https://www.hackerrank.com/challenges/japanese-cities-name/problem?isFullScreen=true
+select  NAME from CITY WHERE COUNTRYCODE IN ('JPN');
