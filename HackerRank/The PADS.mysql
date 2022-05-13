@@ -1,0 +1,8 @@
+#https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true
+/*
+Enter your query here.
+*/
+SELECT CONCAT(Name,'(',left(Occupation,1),')') from OCCUPATIONS ORDER BY NAME ASC;
+SELECT "There are a total of ", Count(*) as c,CONCAT(LOWER(Occupation),"s.") from OCCUPATIONS
+GROUP BY Occupation
+Order by c asc,Occupation asc;
