@@ -1,5 +1,6 @@
-//https://www.hackerrank.com/challenges/weather-observation-station-13/problem?isFullScreen=true
+
 /*
+https://www.hackerrank.com/challenges/weather-observation-station-13/problem?isFullScreen=true
 Enter your query here.
 */
 SELECT ROUND(SUM(LAT_N),4) FROM STATION
