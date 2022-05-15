@@ -1,0 +1,6 @@
+/*
+https://www.hackerrank.com/challenges/earnings-of-employees/problem?isFullScreen=true
+Enter your query here.
+*/
+SELECT MAX(months*salary), count(*) from Employee
+group by(months*salary) order by (months*salary) desc limit 1;
